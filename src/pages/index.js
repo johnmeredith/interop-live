@@ -82,6 +82,38 @@ class HomeIndex extends React.Component {
                             </ul>
                         </div>
                     </section>
+                    <section id="three">
+                        <div className="inner">
+                            <header className="major">
+                                <h2>Get in touch</h2>
+                            </header>
+                            <div className="box alt">
+                            <form name="contact" method="POST" netlify>
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+                                </div>
+                            <ul className="actions">
+                                <li><Link to="/register" className="button next">Register Now</Link></li>
+                            </ul>
+                        </div>
+                    </section>
                 </div>
 
             </Layout>
