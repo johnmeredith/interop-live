@@ -28,8 +28,7 @@ const Contact = (props) => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-twitter"></span>
-                        <h3>Twitter</h3>
-                        <a href="https://twitter.com/interoplive">@InteropLive</a>
+                        <h3><a href="https://twitter.com/interoplive">@InteropLive</a></h3>
                     </div>
                 </section>
                 <section>
