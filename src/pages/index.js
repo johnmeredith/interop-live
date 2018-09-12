@@ -14,6 +14,10 @@ import cardiff_bay from '../assets/images/cardiff_bay.jpg'
 import theatre_chairs from '../assets/images/theatre_chairs.jpg'
 import screen_code from '../assets/images/screen_code.jpg'
 import neon_lights from '../assets/images/neon_lights.jpg'
+import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
+import logo_uwtsd from '../assets/images/uwtsd.gif'
+import logo_nhs_wales from '../assets/images/NHS_Wales_70_Logo.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -24,7 +28,7 @@ class HomeIndex extends React.Component {
                     title="Interoperability Symposium 2019"
                     meta={[
                         { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'keywords', content: 'interoperability, interop, integration, health, informatics, IT, symposium, conference, OpenEHR, HL7, FHIR, Snomed' },
                     ]}
                 >
                 </Helmet>
@@ -35,19 +39,19 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${screen_code})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Why</h3>
+                                <p>Interoperability is a well used. But unfortunately not always in the right context.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{backgroundImage: `url(${theatre_chairs})`}}>
                             <header className="major">
                                 <h3>Tempus</h3>
                                 <p>feugiat amet tempus</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${speaker})`}}>
                             <header className="major">
                                 <h3>Speakers</h3>
                                 <p>Meet our speakers!</p>
@@ -61,29 +65,20 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/where" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>In Association With</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <div className="box alt">
+                                    <div className="grid-wrapper">
+                                        <div className="col-4"><span className="image fit"><img src={logo_nhs_wales} alt="NHS Wales" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
+                                    </div>
+                                </div>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/register" className="button next">Register Now</Link></li>
                             </ul>
                         </div>
                     </section>
