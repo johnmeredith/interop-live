@@ -88,7 +88,7 @@ class HomeIndex extends React.Component {
                                 <h2>Get in touch</h2>
                             </header>
                             <div className="box alt">
-                            <form name="contact" method="POST" netlify>
+                            <form name="contact 2" method="POST" netlify>
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
