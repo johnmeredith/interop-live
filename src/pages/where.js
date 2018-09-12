@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 import cardiff_bay from '../assets/images/cardiff_bay.jpg'
 
-const Where = (props) => (
+const Generic = (props) => (
     <Layout>
         <Helmet>
             <title>Interoperability Symposium 2019 - Location</title>
@@ -34,4 +34,4 @@ const Where = (props) => (
     </Layout>
 )
 
-export default Where
+export default Generic
