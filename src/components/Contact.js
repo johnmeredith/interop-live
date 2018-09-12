@@ -6,7 +6,7 @@ const Contact = (props) => (
             <section>
                 <h2>Contact Interop 2019</h2>
                 <form name="contact" method="post" netlify>
-                //action="#">
+            /*    //action="#">*/
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
