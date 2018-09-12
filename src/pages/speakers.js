@@ -8,8 +8,8 @@ import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
 const Speakers = (props) => (
     <Layout>
         <Helmet>
-            <title>Interop 2019 - Meet Our Speakers</title>
-            <meta name="Meet the Speakers at Interop 2019" content="The people speakign at the 2019 Interoperability Symposium." />
+            <title>Health Interoperability Symposium 2019 - Meet Our Speakers</title>
+            <meta name="description" content="The people speaking at the 2019 Interoperability Symposium." />
         </Helmet>
 
         <div id="main" className="alt">

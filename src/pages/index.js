@@ -25,9 +25,9 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Interoperability Symposium 2019"
+                    title="Health Interoperability Symposium 2019"
                     meta={[
-                        { name: 'description', content: 'Sample' },
+                        { name: 'description', content: 'The first UK symposium dedicated to health interoperability' },
                         { name: 'keywords', content: 'interoperability, interop, integration, health, informatics, IT, symposium, conference, OpenEHR, HL7, FHIR, Snomed' },
                     ]}
                 >
@@ -37,19 +37,19 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${screen_code})`}}>
+                        <article style={{backgroundImage: `url(${neon_lights})`}}>
                             <header className="major">
                                 <h3>Why</h3>
-                                <p>Interoperability is a well used. But unfortunately not always in the right context.</p>
+                                <p>The conversation about interoperability by the people that know it best.</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${theatre_chairs})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Agenda</h3>
+                                <p>The Full Programme</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/agenda" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${speaker})`}}>
                             <header className="major">

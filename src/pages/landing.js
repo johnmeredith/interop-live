@@ -12,7 +12,7 @@ import cardiff_bay from '../assets/images/cardiff_bay.jpg'
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Interoperability Symposium 2019</title>
+            <title>Health Interoperability Symposium 2019</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 

@@ -8,8 +8,8 @@ import theatre_chairs from '../assets/images/theatre_chairs.jpg'
 const Register = (props) => (
     <Layout>
         <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="Register for Interop 2019" content="Details of how to register for the 2019 Interoperability Symposium" />
+            <title>Register for the Health Interoperability Symposium 2019</title>
+            <meta name="description" content="Register for Health Interoperability Symposium 2019" />
         </Helmet>
 
         <div id="main" className="alt">

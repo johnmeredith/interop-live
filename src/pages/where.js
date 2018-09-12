@@ -10,8 +10,8 @@ import icon_plane from '../assets/images/icon_plane.png'
 const Location = (props) => (
     <Layout>
         <Helmet>
-            <title>Interoperability Symposium 2019 - Location</title>
-            <meta name="Interop 2019 Location" content="Generic Page" />
+            <title>Health Interoperability Symposium 2019 - Location</title>
+            <meta name="description" content="Join Us at Health Interoperability Symposium 2019" />
         </Helmet>
 
         <div id="main" className="alt">
