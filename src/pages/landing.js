@@ -7,11 +7,12 @@ import BannerLanding from '../components/BannerLanding'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import cardiff_bay from '../assets/images/cardiff_bay.jpg'
 
 const Landing = (props) => (
     <Layout>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
+            <title>Interoperability Symposium 2019</title>
             <meta name="description" content="Landing Page" />
         </Helmet>
 

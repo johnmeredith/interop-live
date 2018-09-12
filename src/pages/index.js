@@ -10,6 +10,10 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import cardiff_bay from '../assets/images/cardiff_bay.jpg'
+import theatre_chairs from '../assets/images/theatre_chairs.jpg'
+import screen_code from '../assets/images/screen_code.jpg'
+import neon_lights from '../assets/images/neon_lights.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -17,7 +21,7 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Interoperability Symposium 2019"
                     meta={[
                         { name: 'description', content: 'Sample' },
                         { name: 'keywords', content: 'sample, something' },
@@ -29,7 +33,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{backgroundImage: `url(${screen_code})`}}>
                             <header className="major">
                                 <h3>Aliquam</h3>
                                 <p>Ipsum dolor sit amet</p>
@@ -45,17 +49,17 @@ class HomeIndex extends React.Component {
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Speakers</h3>
+                                <p>Meet our speakers!</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${cardiff_bay})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Where</h3>
+                                <p>Interop 2019 will be held in Cardiff, Wales on March 14, 2019. Click for more details.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/where" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
