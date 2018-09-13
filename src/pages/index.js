@@ -51,6 +51,13 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/agenda" className="link primary"></Link>
                         </article>
+						<article style={{backgroundImage: `url(${cardiff_bay})`}}>
+                            <header className="major">
+                                <h3>Where</h3>
+                                <p>Interop 2019 will be held in Cardiff, Wales on March 14, 2019. Click for more details.</p>
+                            </header>
+                            <Link to="/where" className="link primary"></Link>
+                        </article>
                         <article style={{backgroundImage: `url(${speaker})`}}>
                             <header className="major">
                                 <h3>Speakers</h3>
@@ -58,14 +65,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${cardiff_bay})`}}>
-                            <header className="major">
-                                <h3>Where</h3>
-                                <p>Interop 2019 will be held in Cardiff, Wales on March 14, 2019. Click for more details.</p>
-                            </header>
-                            <Link to="/where" className="link primary"></Link>
-                        </article>
-                    </section>
+                                            </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
@@ -73,8 +73,8 @@ class HomeIndex extends React.Component {
                             </header>
                             <div className="box alt">
                                     <div className="grid-wrapper">
-                                        <div className="col-4"><span className="image fit"><img src={logo_nhs_wales} alt="NHS Wales" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
+                                        <div className="col-6"><span className="image fit"><img src={logo_nhs_wales} alt="NHS Wales" /></span></div>
+                                        <div className="col-6"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
                                     </div>
                                 </div>
                             <ul className="actions">
