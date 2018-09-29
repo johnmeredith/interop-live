@@ -18,7 +18,7 @@ const Speakers = (props) => (
                     <header className="major">
                         <h1>Meet Our Speakers</h1>
                     </header>
-                    <span className="image main"><img src={speaker} alt="" /></span>
+                    <span className="image main"><img src={speaker} alt="speaker image" /></span>
                     <p>We have a great array of speakers lined up and will let you know about them soon.</p>
                 </div>
             </section>
