@@ -7,7 +7,7 @@ const Success = () => (
         <section id="one">
             <div className="inner">
                 <h1>Thank You!</h1>
-                <p>Your message has been sent.</p>
+                <p>Your message has been sent. We will be in touch soon.</p>
             </div>
         </section>
     </div>
