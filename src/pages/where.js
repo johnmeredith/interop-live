@@ -31,9 +31,15 @@ const Location = (props) => (
                     <p><span className="image left"><img src={icon_train} alt="Travel by train" /></span>Cardiff has direct rail links to many cities in the UK including London, Birmingham, Manchester, Nottingham, Bristol and Southampton. The journey time from London Paddington to Cardiff is just over 2 hours and leaves every 30 minutes.</p>
                     <h3>Air</h3>
                     <p><span className="image left"><img src={icon_plane} alt="Travel by plane" /></span>Cardiff Airport is 12 miles west of the city centre and 10 miles from Junction 33 of the M4. The airport has direct flights to over 50 destinations and connecting flights to over 800 destinations worldwide. Visit the Cardiff Wales airport website for details. Airlines operating from Cardiff include KLM, Aer Lingus, Flybe, Vueling and Ryanair.</p>
-                    <span>Ty Glan Yr Afon<br>21 Cowbridge Road East<br>Cardiff CF11 9AD<br>Wales</span>
-    
-    </div>
+                    </div>
+                    <div className="contact-method">
+                        <span className="icon alt fa-home"></span>
+                        <h3>Address</h3>
+                        <span>Ty Glan Yr Afon<br />
+                        21 Cowbridge Road East<br />
+                        Cardiff CF11 9AD<br />
+                        Wales</span>
+                    </div>
             </section>
         </div>
 
