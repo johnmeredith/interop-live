@@ -2,12 +2,12 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import theatre_chairs_wide from '../assets/images/theatre_chairs_wide.jpg'
+import pic11 from '../assets/images/pic11.jpg'
 
-const Agenda = (props) => (
+const Generic = (props) => (
     <Layout>
         <Helmet>
-            <title>Agenda | Interop'19</title>
+            <title>Generic - Forty by HTML5 UP</title>
             <meta name="description" content="The Full Programme for Health Interop 2019." />
         </Helmet>
 
@@ -15,14 +15,12 @@ const Agenda = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Symposium Programme</h1>
+                        <h1>Generic</h1>
                     </header>
-                    <span className="image fit"><img src={theatre_chairs_wide} alt="Chairs in a conference hall" /></span>
-                    <div className="box">
-                        <p>The programme of speakers promises to be informative, enlightening and thought provoking. The aim of the Interoperability Symposium is to provide a forum to discuss what interoperability means in 2019 for the NHS. </p>
-                        <p>The speakers all have a story to tell and experience to share from across the UK and Europe.</p>
-                    </div>
-                    <h2>We will be publishing the full symposium agenda shortly.</h2>
+                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
                 </div>
             </section>
         </div>
@@ -30,4 +28,4 @@ const Agenda = (props) => (
     </Layout>
 )
 
-export default Agenda
+export default Generic

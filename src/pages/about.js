@@ -2,8 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import whatsyourinterop from '../assets/images/rawpixel-753976-unsplash-interop-definition.jpg'
-import writingpad from '../assets/images/kaleidico-754605-unsplash.jpg'
+import pic11 from '../assets/images/pic11.jpg'
 
 const Generic = (props) => (
     <Layout>
@@ -18,11 +17,10 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>About Us</h1>
                     </header>
-                    <span className="image main"><img src={whatsyourinterop} alt="Image of a laptop with the question 'What is your definition of INTEROPERABILITY?'. "/></span>
-                
-                <p><span className="image right"><img src={writingpad} alt="Person writing on a note pad with a pen" /></span>The Symposium is an opportunity for people who have operated in the interoperability space to share and inform each other of their experiences. It is not about the technology, but the impact of that technology. The Symposium speakers will provide references to real world interoperability challenges and provide demonstrable examples in how to overcome the problems associated with harnessing the potential of the emerging electronic health record. </p>
-                <p>What we are hoping to achieve is a consensus on the definition of interoperability and what it means for health providers in 2019. This in turn will facilitate the discussion across the UK to support the teams of clinicians and informatics staff manage expectations and make good evidenced based decisions going forward. </p>
-                <p>Health Interoperability Symposium 2019 is supported by the Welsh Institute for Digital Information.</p>
+                    <span className="image main"><img src={pic11} alt="" /></span>
+                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
                 </div>
             </section>
         </div>
