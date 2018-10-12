@@ -3,6 +3,10 @@ import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
+        <Helmet>
+            <title>Page Not Found | INTEROP'19</title>
+            <meta name="description" content="Generic Page" />
+        </Helmet>
     <div id="main" className="alt">
         <section id="one">
             <div className="inner">
