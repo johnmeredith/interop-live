@@ -15,8 +15,10 @@ import theatre_chairs from '../assets/images/theatre_chairs.jpg'
 import screen_code from '../assets/images/screen_code.jpg'
 import neon_lights from '../assets/images/neon_lights.jpg'
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
-import logo_uwtsd from '../assets/images/uwtsd.gif'
-import logo_nhs_wales from '../assets/images/NHS_Wales_70_Logo.jpg'
+import logo_uwtsd from '../assets/images/uwtsd-logo.jpg'
+import logo_nhs_wales from '../assets/images/nwis-logo.jpg'
+import question_trees from '../assets/images/evan-dennis-75563-unsplash.jpg'
+
 
 
 class HomeIndex extends React.Component {
