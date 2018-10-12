@@ -91,9 +91,8 @@ const Why = (props) => (
                                 <div className="box alt">
                                 <p>Interop'19 is <bold>FREE TO ATTEND.</bold></p>
                             </div>
-                                <ul className="actions">
-                                    <li><Link to="/register" className="button next">Register Now</Link></li>
-                                </ul>
+                                <a href="/register" className="button special">Register Now</a>
+                               
                 </div>
 
             </section>
