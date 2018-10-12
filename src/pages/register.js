@@ -20,7 +20,7 @@ const Register = (props) => (
                     </header>
                     <span className="image main"><img src={theatre_chairs} alt="" /></span>
                     <a href="https://www.eventbrite.co.uk/e/health-interoperability-symposium-2019-registration-51001806777?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.co.uk/custombutton?eid=51001806777" alt="Eventbrite - Health Interoperability Symposium 2019" /></a>
-                    
+                </div>    
             </section>
         </div>
 
