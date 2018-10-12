@@ -66,8 +66,8 @@ class HomeIndex extends React.Component {
                             </header>
                             <div className="box alt">
                                     <div className="grid-wrapper">
-                                        <div className="col-2"><span className="image fit"><img src={logo_nwis} alt="NHS Wales Informatics Service" /></span></div>
-                                        <div className="col-2"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={logo_nwis} alt="NHS Wales Informatics Service" /></span></div>
+                                        <div className="col-4"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
                                     </div>
                                 </div>
                             <ul className="actions">
