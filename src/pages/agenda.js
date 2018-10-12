@@ -22,7 +22,7 @@ const Agenda = (props) => (
                         <p>The programme of speakers promises to be informative, enlightening and thought provoking. The aim of the Interoperability Symposium is to provide a forum to discuss what interoperability means in 2019 for the NHS. </p>
                         <p>The speakers all have a story to tell and experience to share from across the UK and Europe.</p>
                     </div>
-                    <h2>We will be publishing the full symposium agenda shortly.</h2>
+                    <h3>We will be publishing the full symposium agenda shortly.</h3>
                 </div>
             </section>
         </div>
