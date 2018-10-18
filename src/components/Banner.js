@@ -5,6 +5,7 @@ const Banner = (props) => (
         <div className="inner">
             <header className="major">
                 <h1>INTEROP'19</h1>
+                <h2>CARDIFF, Wales | 14/03/19</h2>
             </header>
             <div className="content">
                 <p>Welcome to the <br />
