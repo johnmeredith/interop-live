@@ -5,11 +5,10 @@ const Banner = (props) => (
         <div className="inner">
             <header className="major">
                 <h1>INTEROP'19</h1>
-                <h2>CARDIFF, Wales | 14/03/19</h2>
             </header>
             <div className="content">
-                <p>Welcome to the <br />
-                2019 Interoperability Symposium</p>
+                <p>Interoperability Symposium<br />
+                <strong>CARDIFF | 14/03/19</strong></p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Find Out More</a></li>
                 </ul>
