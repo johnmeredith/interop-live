@@ -81,7 +81,7 @@ const Why = (props) => (
                 <div className="inner">
                 <p>What is clear is that the definition represents the extent to which interoperability is a requirement for health providers, with different standards and technological functions able to provide support for specific use cases to substantiate provenance with the patient record. </p>
                 <p>However, there is ambiguity surrounding how these technologies support interoperability. This is compounded by socio-political  enthusiasm for concepts such as artificial intelligence coming to the fore. </p>
-                <p>The potential for automated, algorithmic platforms in the form of online clinical consultation applications and patient held records merits careful consideration in the form of clinical and information governance policy for health providers. While several technological solutions exist to support greater interoperability, at Interop’19 we will discuss the underlying requirements that need to be addressed. </p>
+                <p>The potential for automated, algorithmic platforms such as online clinical consultation applications and patient held records merits careful consideration in the form of clinical and information governance policy for health providers. While several technological solutions exist to support greater interoperability, at Interop’19 we will discuss the underlying requirements that need to be addressed.</p>
                 <p><strong>There is no silver bullet and interoperability is difficult to resolve... let's talk about that.</strong></p>
                 </div>
                 <div className="inner">
