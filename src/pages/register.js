@@ -16,7 +16,7 @@ const Register = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Register To Attend the Health Interoperability Symposium 2019</h1>
+                        <h1>Register To Attend Interop'19</h1>
                     </header>
                     <span className="image main"><img src={theatre_chairs} alt="" /></span>
                     <div className="box">
