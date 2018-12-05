@@ -16,11 +16,11 @@ const Register = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Register To Attend</h1>
+                        <h1>Register To Attend the Health Interoperability Symposium 2019</h1>
                     </header>
                     <span className="image main"><img src={theatre_chairs} alt="" /></span>
                     <div className="box">
-                    <p>Attendance at the 2019 Health Interoperability Symposium is FREE but places are limited.</p>
+                    <p>Attendance at the 2019 Health Interoperability Symposium is FREE but places are limited so reserve your spot now.</p>
                     </div>
                     <h2>Target Audience</h2>
                     <p>The symposium is aimed at anyone who works in the field of health interoperability. The events aims to have a frank and honest discussion about the challenges the NHS faces and will be of interest to CIOs, CCIOs, CMIO’s, SME decision-makers, software architects, developers, leaders of change and innovators.</p>
