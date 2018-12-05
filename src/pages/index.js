@@ -18,10 +18,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Health Interoperability Symposium 2019"
+                    title="INTEROP'19 | The Health Interoperability Symposium"
                     meta={[
-                        { name: 'description', content: 'The first UK symposium dedicated to health interoperability' },
-                        { name: 'keywords', content: 'interoperability, interop, integration, health, informatics, IT, symposium, conference, OpenEHR, HL7, FHIR, Snomed' },
+                        { name: 'description', content: 'INTEROP’19 is bringing together leaders from business and the NHS to define what interoperability means to the NHS in 2019, making sense of HL7 FHIR, Snomed CT, OpenEHR and IHE.' },
+                        { name: 'keywords', content: 'interoperability, interop, integration, health, informatics, IT, NHS, symposium, conference, OpenEHR, HL7, FHIR, Snomed CT, IHE' },
                     ]}
                 >
                 </Helmet>

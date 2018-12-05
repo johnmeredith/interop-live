@@ -9,7 +9,7 @@ const Register = (props) => (
     <Layout>
         <Helmet>
             <title>Register for the Health Interoperability Symposium 2019</title>
-            <meta name="description" content="Register for Health Interoperability Symposium 2019" />
+            <meta name="description" content="Free registration for the inaugral Health Interoperability Symposium is now open. Tickets are limited for the March 14, 2019 event!" />
         </Helmet>
 
         <div id="main" className="alt">

@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Interoperability Symposium 2019",
-    author: "John Meredith",
-    description: "The first dedicated health interoperability symposium in 2019"
+    title: "INTEROP'19 | The Health Interoperability Symposium",
+    author: "Wales Institute of Digital Information",
+    description: "Interop’19 is bringing together leaders from business and the NHS to define what interoperability means to the NHS in 2019, making sense of HL7 FHIR, Snomed CT, OpenEHR and IHE.",
+    keywords: "interoperability, interop, integration, health, informatics, IT, NHS, symposium, conference, OpenEHR, HL7, FHIR, Snomed CT, IHE"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
