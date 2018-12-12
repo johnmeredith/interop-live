@@ -8,8 +8,8 @@ import cardiff_bay from '../assets/images/cardiff_bay.jpg'
 import theatre_chairs from '../assets/images/theatre_chairs.jpg'
 import question_trees from '../assets/images/evan-dennis-75563-unsplash.jpg'
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
-import logo_uwtsd from '../assets/images/uwtsd-logo.jpg'
-import logo_nwis from '../assets/images/nwis-logo.jpg'
+import logo_uwtsd from '../assets/images/uwtsd-logo.png'
+import logo_nwis from '../assets/images/nwis-logo.png'
 
 
 class HomeIndex extends React.Component {
