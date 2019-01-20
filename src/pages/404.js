@@ -7,7 +7,7 @@ const NotFoundPage = () => (
         <section id="one">
             <div className="inner">
                 <h1>ERROR 404 INTEROPERABILITY FAILURE</h1>
-                <p>All forms of technical, semantic and process interop failed... the sadness.</p>
+                <p>All forms of technical, semantic and process interoperability have failed... the sadness.</p>
             </div>
         </section>
     </div>
