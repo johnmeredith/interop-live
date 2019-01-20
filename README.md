@@ -1,8 +1,8 @@
 ## Cloned Repo ##
 
-# gatsby-starter-forty-v2
+# Interop'19 Home Page
 
-**This is a starter for Gatsby.js V2.**
+**This is a starter for Gatsby.js V2 based on gatsby-starter-forty-v2**
 
 **The older V1 version of this starter can be found at:**
 <br/>
