@@ -10,7 +10,8 @@ import question_trees from '../assets/images/evan-dennis-75563-unsplash.jpg'
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
 import logo_uwtsd from '../assets/images/uwtsd-logo.png'
 import logo_nwis from '../assets/images/nwis-logo.png'
-
+import logo_apperta from '../assets/images/apperta_logo.png'
+import logo_bevan from '../assets/images/bevan_logo.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -68,6 +69,8 @@ class HomeIndex extends React.Component {
                                     <div className="grid-wrapper">
                                         <div className="col-3"><span className="image fit"><img src={logo_nwis} alt="NHS Wales Informatics Service" /></span></div>
                                         <div className="col-3"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
+                                        <div className="col-3"><span className="image fit"><img src={logo_bevan} alt="Bevan Commission" /></span></div>
+                                        <div className="col-3"><span className="image fit"><img src={logo_apperta} alt="Apperta Foundation" /></span></div>
                                     </div>
                                 </div>
                             <ul className="actions">
