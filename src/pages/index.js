@@ -63,12 +63,12 @@ class HomeIndex extends React.Component {
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Interop'19 is presented by Wales Institute for Digital Information</h2>
+                                <h2>Presented by Wales Institute for Digital Information</h2>
                             </header>
                             <div className="box alt">
                                     <div className="grid-wrapper">
-                                        <div className="col-4"><span className="image fit"><img src={logo_nwis} alt="NHS Wales Informatics Service" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
+                                        <div className="col-3"><span className="image fit"><img src={logo_nwis} alt="NHS Wales Informatics Service" /></span></div>
+                                        <div className="col-3"><span className="image fit"><img src={logo_uwtsd} alt="University of Wales Trinity St Davids" /></span></div>
                                      </div>
                                 </div>
                             <header className="major">
@@ -80,9 +80,6 @@ class HomeIndex extends React.Component {
                                         <div className="col-2"><span className="image fit"><img src={logo_apperta} alt="Apperta Foundation" /></span></div>
                                     </div>
                                 </div>
-                            <ul className="actions">
-                                <li><Link to="/register" className="button next">Register Now</Link></li>
-                            </ul>
                         </div>
                     </section>
                     <section id="three">
