@@ -13,6 +13,9 @@ import logo_nwis from '../assets/images/nwis-logo.png'
 import logo_apperta from '../assets/images/apperta_logo.png'
 import logo_bevan from '../assets/images/bevan_logo.png'
 import logo_dhew from '../assets/images/dhew_logo.png'
+import whatsyourinterop from '../assets/images/rawpixel-753976-unsplash-interop-definition.jpg'
+import news from '../assets/images/roman-kraft-260082-unsplash.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -34,7 +37,7 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${question_trees})`}}>
                             <header className="major">
-                                <h3>Why</h3>
+                                <h3>Why?</h3>
                                 <p>The conversation about interoperability by the people that know it best.</p>
                             </header>
                             <Link to="/why" className="link primary"></Link>
@@ -59,6 +62,20 @@ class HomeIndex extends React.Component {
                                 <p>Interop 2019 will be held at Cardiff City Stadium, Wales on March 14, 2019. Click for more details.</p>
                             </header>
                             <Link to="/where" className="link primary"></Link>
+                        </article>
+
+                        <article style={{backgroundImage: `url(${whatsyourinterop})`}}>
+                            <header className="major">
+                                <h3>About Us</h3>
+                            </header>
+                            <Link to="/about" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${news})`}}>
+                            <header className="major">
+                                <h3>News</h3>
+                                <p>The latest symposium news.</p>
+                            </header>
+                            <Link to="/news" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">

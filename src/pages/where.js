@@ -24,7 +24,7 @@ const Location = (props) => (
                     <span className="image main"><img src={cardiff_bay} alt="" /></span>
                     <p><span className="image right"><img src={ccfc} alt="" /></span>The Interoperability Symposium 2019 with be held in at the Cardiff City Stadium, Wales.<br />
                     Cardiff, Wales’ capital city offers spectacular shopping, museums, dining and entertainment. Easy to explore on foot you can visit the free  National Museum Cardiff and spectacular Cardiff Castle all within the city centre.<br /> 
-                    Visit the official regional website for more information at <a href="http://www.visitcardiff.com">Visit Cardiff</a>.<br />
+                    Visit the official regional website for more information at <a href="http://www.visitcardiff.com">Visit Cardiff</a>.</p>
                     <h2>How to get here</h2>
                     <h3>Road</h3>
                     <p><span className="image left"><img src={icon_car} alt="Travel by car" /></span>Cardiff is easily accessible via the M4 motorway, which runs through the north of the city, making London a comfortable drive away. From the Midlands, the North of England and Scotland it is a straightforward drive via the M6, M5 and M50/M4. From the South and South West of England the approach is by M5 and M4. Access from West Wales is by M4.</p>
@@ -38,7 +38,7 @@ const Location = (props) => (
                     Cardiff<br />
                     CF11 8AZ<br />
                     Wales</span></p>
-                    </div>
+                </div>
             </section>
         </div>
 
