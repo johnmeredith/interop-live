@@ -42,9 +42,10 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>Ty Glan Yr Afon<br />
-                        21 Cowbridge Road East<br />
-                        Cardiff CF11 9AD<br />
+                        <p><span className="icon alt fa-home"></span>
+                        <span>Cardiff City Stadium<br />
+                        Cardiff<br />
+                        CF11 8AZ<br />
                         Wales</span>
                     </div>
                 </section>

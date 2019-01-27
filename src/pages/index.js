@@ -12,6 +12,7 @@ import logo_uwtsd from '../assets/images/uwtsd-logo.png'
 import logo_nwis from '../assets/images/nwis-logo.png'
 import logo_apperta from '../assets/images/apperta_logo.png'
 import logo_bevan from '../assets/images/bevan_logo.png'
+import logo_dhew from '../assets/images/dhew_logo.png'
 
 class HomeIndex extends React.Component {
     render() {
@@ -55,7 +56,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${cardiff_bay})`}}>
                             <header className="major">
                                 <h3>Where</h3>
-                                <p>Interop 2019 will be held in Cardiff, Wales on March 14, 2019. Click for more details.</p>
+                                <p>Interop 2019 will be held at Cardiff City Stadium, Wales on March 14, 2019. Click for more details.</p>
                             </header>
                             <Link to="/where" className="link primary"></Link>
                         </article>
@@ -76,6 +77,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <div className="box alt">
                                     <div className="grid-wrapper">
+                                        <div className="col-2"><span className="image fit"><img src={logo_dhew} alt="Digital Health Ecosystem Wales" /></span></div>
                                         <div className="col-2"><span className="image fit"><img src={logo_bevan} alt="Bevan Commission" /></span></div>
                                         <div className="col-2"><span className="image fit"><img src={logo_apperta} alt="Apperta Foundation" /></span></div>
                                     </div>
