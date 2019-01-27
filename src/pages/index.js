@@ -14,7 +14,7 @@ import logo_apperta from '../assets/images/apperta_logo.png'
 import logo_bevan from '../assets/images/bevan_logo.png'
 import logo_dhew from '../assets/images/dhew_logo.png'
 import whatsyourinterop from '../assets/images/rawpixel-753976-unsplash-interop-definition.jpg'
-import news from '../assets/images/roman-kraft-260082-unsplash.jpg'
+import news from '../assets/images/roman-kraft-260082-unsplash_1280.jpg'
 
 
 class HomeIndex extends React.Component {
