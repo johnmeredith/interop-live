@@ -42,7 +42,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <p><span className="icon alt fa-home"></span>
+                        <span className="icon alt fa-home"></span>
                         <span>Cardiff City Stadium<br />
                         Cardiff<br />
                         CF11 8AZ<br />
