@@ -62,4 +62,4 @@ const Landing = (props) => (
     </Layout>
 )
 
-export default Landing
+export default News
