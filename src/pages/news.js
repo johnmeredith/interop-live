@@ -8,19 +8,19 @@ const News = (props) => (
     <Layout>
         <Helmet>
             <title>Health Interoperability Symposium 2019 - News</title>
-            <meta name="description" content="Generic Page" />
+            <meta name="description" content="News from the Health Interoperability Symposium 2019" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h3>28/01/19 - Interop'19 Gets An Upgrade</h3>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <strong>Interop'19 is on the move to Cardiff City Stadium.</strong>
+                    <p>Due to the great demand for attendance, we are pleased to announce that the Interoperabilty Symposium is moving to Cardiff City Stadium. We are hoping to bring you a bigger event, with more collaboration thanks to our friends at the Digital Health Ecosystem Wales.</p>
+                    <p>Digital Health Ecosystem Wales is a network connecting developers and companies with innovative digital health solutions with the NHS in Wales. It represents a collaboration between the Life Sciences Hub Wales and the NHS Wales Informatics Service (NWIS) and is funded through the Welsh Government’s Efficiency Through Technology Programme.</p>
+                    <p>There is no change to the date of the event and the larger <a href="../register">ticket allocation is availble now.</a></p>
                 </div>
             </section>
         </div>
