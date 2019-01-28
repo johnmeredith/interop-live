@@ -32,8 +32,11 @@ const News = (props) => (
                 <header className="major">
                                 <h3>23/01/19 - Collaboration Update</h3>
                             </header>
+                            <p>
+                            <span className="image right"><img src={bevan} alt="The Bevan Commission" /></span>
                             <strong>We are very pleased to announce that we are collaborating with @BevanCommission and Apperta Foundation on #Interop19!</strong>
-                            <p><span className="image right"><img src={bevan} alt="The Bevan Commission" /></span>
+                            </p>
+                            <p>
                                 <a href="http://www.bevancommission.org/en/">The Bevan Commission</a> is a group of international experts providing advice to the Minister for Health and Social Services and ensuring that Wales can draw on best healthcare practices from around the world while remaining true to the principles of the NHS as established by Aneurin Bevan.
                             </p>
                             <p><span className="image right"><img src={apperta} alt="Apperta Foundation" /></span>
