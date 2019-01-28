@@ -1,28 +1,22 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../assets/images/roman-kraft-260082-unsplash_1280.jpg'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
-import cardiff_bay from '../assets/images/cardiff_bay.jpg'
+import pic11 from '../assets/images/pic11.jpg'
 
 const News = (props) => (
     <Layout>
         <Helmet>
-            <title>Health Interoperability Symposium 2019</title>
-            <meta name="description" content="Landing Page" />
+            <title>Health Interoperability Symposium 2019 - News</title>
+            meta={[
+                        { name: 'description', content: 'The latest news from INTEROP’19 - the health interoperability symposium.' },
+                        { name: 'keywords', content: 'news, interoperability, interop, integration, health, informatics, IT, NHS, symposium, conference, OpenEHR, HL7, FHIR, Snomed CT, IHE' },
+                    ]}
+
         </Helmet>
 
-        <BannerLanding />
-
-        <div id="main">
-
-            <section id="two" className="spotlights">
- 
-                <section>
+        <div id="main" className="alt">
+        <section>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -38,8 +32,6 @@ const News = (props) => (
                         </div>
                     </div>
                 </section>
-
-
                 <section>
                     <div className="content">
                         <div className="inner">
@@ -51,12 +43,11 @@ const News = (props) => (
                                 <a href="http://www.bevancommission.org/en/">The Bevan Commission</a> is a group of international experts providing advice to the Minister for Health and Social Services and ensuring that Wales can draw on best healthcare practices from around the world while remaining true to the principles of the NHS as established by Aneurin Bevan.
                             </p>
                             <p>
-                                Additinoally, the <a href="https://apperta.org/">Apperta Foundation</a> are bringing the message of open platofrms to the symposium. The Apperta Foundation is a clinician-led, not-for-profit company. Supported by NHS England, NHS Digital and others, the foundation promotes open systems and standards for digital health and social care.
+                                Additionally, the <a href="https://apperta.org/">Apperta Foundation</a> are bringing the message of open platofrms to the symposium. The Apperta Foundation is a clinician-led, not-for-profit company. Supported by NHS England, NHS Digital and others, the foundation promotes open systems and standards for digital health and social care.
                             </p>
                         </div>
                     </div>
                 </section>
-            </section>
         </div>
 
     </Layout>
