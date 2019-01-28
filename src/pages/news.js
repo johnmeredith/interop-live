@@ -9,7 +9,7 @@ import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import cardiff_bay from '../assets/images/cardiff_bay.jpg'
 
-const Landing = (props) => (
+const News = (props) => (
     <Layout>
         <Helmet>
             <title>Health Interoperability Symposium 2019</title>
