@@ -23,6 +23,7 @@ const Agenda = (props) => (
                         <p>The speakers all have a story to tell and experience to share from across the UK and Europe.</p>
                     </div>
                     <h1>Agenda</h1>
+                    <h3>Juno Moneta Lounge, Cardiff City Stadium 09:30-17:00</h3>
                                 <div className="table-wrapper">
                                     <table className="alt">
                                         <thead>
@@ -39,7 +40,7 @@ const Agenda = (props) => (
                                                 <td></td>
                                             </tr>
                                             <tr>
-                                                <td>09:20</td>
+                                                <td>09:30</td>
                                                 <td>Welcome and Opening Remarks</td>
                                                 <td>Andrew Griffiths, NHS Wales Informatics Service</td>
                                             </tr>
@@ -137,20 +138,25 @@ const Agenda = (props) => (
 
                                             <tr>
                                                 <td>16:00</td>
-                                                <td><strong>Session: TBC</strong></td>
-                                                <td></td>
+                                                <td><strong>Session 4: Interoperability Defined?</strong></td>
+                                                <td>Panel</td>
                                             </tr>
                                             <tr>
                                                 <td></td>
                                                 <td>Closing Remarks</td>
                                                 <td>John Meredith, NHS Wales Informatics Service</td>
                                             </tr>
+                                            <tr>
+                                                <td>17:00-18:00</td>
+                                                <td>Drinks Reception</td>
+                                                <td></td>
+                                            </tr>
 
                                         </tbody>
                                         <tfoot>
                                             <tr>
                                                 <td colSpan="2"></td>
-                                                <td>17:00 CLOSE</td>
+                                                <td>Refreshments will be provided at break and lunch.</td>
                                             </tr>
                                         </tfoot>
                                     </table>
