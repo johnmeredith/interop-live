@@ -22,7 +22,7 @@ const Agenda = (props) => (
                         <p>The programme of speakers promises to be informative, enlightening and thought provoking. The aim of the Interoperability Symposium is to provide a forum to discuss what interoperability means in 2019 for the NHS. </p>
                         <p>The speakers all have a story to tell and experience to share from across the UK and Europe.</p>
                     </div>
-                    <h1>Symposium Agenda</h1>
+                    <h1>Agenda</h1>
                                 <div className="table-wrapper">
                                     <table className="alt">
                                         <thead>
@@ -46,7 +46,7 @@ const Agenda = (props) => (
                                             <tr>
                                                 <td>09:45</td>
                                                 <td><strong>Session 1</strong></td>
-                                                <td>Sion Charles, Bevan Commission</td>
+                                                <td>Introduced by Sion Charles, Bevan Commission</td>
                                             </tr>
                                             <tr>
                                                 <td></td>
@@ -63,11 +63,94 @@ const Agenda = (props) => (
                                                 <td>HiGHmed - An Open Platform Approach</td>
                                                 <td>Birger Haarbrandt, HiGHmed Project</td>
                                             </tr>
+
+                                            <tr>
+                                                <td></td>
+                                                <td>BREAK</td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>11:45</td>
+                                                <td><strong>Session 2</strong></td>
+                                                <td>Introduced by Helen Northmore, Digital Health Ecosystem Wales</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>SIDeR: Linking Health and Social Care in Somerset</td>
+                                                <td>Demelza Douglas, Chief Clinical Information Officer (Somerset Partnership NHS Foundation Trust)</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Pragmatic Standardisation of Clinical Models</td>
+                                                <td>Silje Bakke, Clinical Informaticist (Nasjonal IKT)</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Share2Care: Effective Information Sharing</td>
+                                                <td>David Reilly, Head of Interoperability (Alderhey Hospital)</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>13:15</td>
+                                                <td>LUNCH</td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>14:00</td>
+                                                <td><strong>Afternoon Session</strong></td>
+                                                <td>Introduced by Ian Wells, University of Wales Trinity St Davids</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td><strong>Keynote: </strong>"Manyura Manyah - Interoperability is *so* 20th Century"</td>
+                                                <td>Dr Ian McNicoll, OpenEHR Foundation</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>14:35</td>
+                                                <td><strong>Session 3</strong></td>
+                                                <td>Introduced by Peter Coates, Apperta Foundation</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>How Clinical Workflow Works</td>
+                                                <td>Thomas Beale, Consutlant (Ars Semantica)</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Of Platforms, Towers and Books</td>
+                                                <td>Colin Brown, Clinical Informatics Adviser (NSS SCIMP)</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>How open digital platforms support patient centric care</td>
+                                                <td>Mike Jones, Vice President, Analyst (Gartner)</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td></td>
+                                                <td>BREAK</td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>16:00</td>
+                                                <td><strong>Session: TBC</strong></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Closing Remarks</td>
+                                                <td>John Meredith, NHS Wales Informatics Service</td>
+                                            </tr>
+
                                         </tbody>
                                         <tfoot>
                                             <tr>
                                                 <td colSpan="2"></td>
-                                                <td>100.00</td>
+                                                <td>17:00 CLOSE</td>
                                             </tr>
                                         </tfoot>
                                     </table>
