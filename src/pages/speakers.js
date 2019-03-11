@@ -9,7 +9,7 @@ import birger from '../assets/images/birger.jpg'
 import douglas from '../assets/images/demelza_douglas.png'
 import reilly from '../assets/images/davidreilly.jpg'
 import hussin from '../assets/images/Zoe_Hussin.jpg'
-
+import brown from '../assets/images/colin_brown.jpg'
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
 
 const Speakers = (props) => (
@@ -46,7 +46,6 @@ const Speakers = (props) => (
                                 <p>Tim led the first European project team on open standards for health interoperability, which led to CEN/TC251 and collaboration with HL7, where he was a co-chair of the Education Committee for several years.  He has also developed a family of short generic patient-reported outcome measures with <a href="http://www.r-outcomes.com" target="_blank">R-Outcomes Ltd</a>.</p>
                             <h4>Dr Ian McNicoll</h4>
                                 <p><span className="image right"><img src={mcnicoll} alt="Dr Ian McNicoll" /></span>Ian is a former Scottish family doctor, and has been involved in healthcare informatics for nearly 30 years, working with openEHR technologies for the last 12 years, most recently with his consultancy, freshEHR Clinical Informatics and as Co-Chair of the openEHR Foundation. His current focus is as CCIO of inidus, a UK startup delivering cloud-hosted clinical computing services, based on open standards. He is also an INTEROPen Board member, is actively involved in UK FHIR profile curation, an Honorary Senior Research Associate at CHIME, UCL, an NHS Digital Innovation Associate and a Founding Fellow of the UK Faculty of Clinical Informatics</p>
-                            </div>
                             <h4>David Reilly</h4>
                                 <p><span className="image right"><img src={reilly} alt="David Reilly" /></span>
                                 Head of Interoperability at Alder Hey and the Cheshire and Merseyside Technical lead for the Share2Care Programme. David has worked at Alder Hey Children’s Hospital for two years, before this was a Senior technical Developer at St Helens and Knowlsey and previously worked for iMerseyside. He graduated with a BSc in Computer Information Systems from the University of Liverpool and is currently working to complete a MSc in Health Informatics.
@@ -55,8 +54,7 @@ const Speakers = (props) => (
                                 <p><span className="image right"><img src={hussin} alt="Zoe Hussin" /></span>
                                 Zoe is a Clinical Interoperability Lead at Alder Hey. She has worked in a clinical lead digital role for the last 2 years and prior to this at Liverpool Community Health.  Having 20 years clinical experience within the NHS as Paediatric Nurse and a Community Practitioner in Public Health, Zoe continues to clinically practice in A&E at Alder Hey. She is part of the  2nd cohort on the NHS Digital Leadership Academy for 2019/2020.
                                 </p>
-
-
+                                </div>
                         </div>
                 </div>
             </section>
