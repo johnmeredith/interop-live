@@ -6,6 +6,10 @@ import bakke from '../assets/images/bakke.jpg'
 import williams from '../assets/images/williams.jpg'
 import benson from '../assets/images/benson.jpg'
 import birger from '../assets/images/birger.jpg'
+import reilly from '../assets/images/David_Reilly.jpg'
+import hussin from '../assets/images/Zoe_Hussin.jpg'
+import douglas from '../assets/images/demelza_douglas.png'
+
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
 
 const Speakers = (props) => (
@@ -30,6 +34,11 @@ const Speakers = (props) => (
                             <h4>Professor JG Williams, CBE FRCP</h4>            
                                 <p><span className="image left"><img src={williams} alt="Professor JG Williams, CBE FRCP" /></span>Professor Williams is currently Professor of Health Services Research and Consultant Gastroenterologist at Swansea University’s College of Medicine. His main research interests are gastroenterology, health services, health informatics, service delivery, and patient outcome. He chiefly focuses on better diagnosis, treatments and services - particularly in gastroenterology - and on increasing patient involvement in these processes.  Professor Williams has a long-standing interest in improving information systems that support patient care and directs the Royal College of Physicians’ Health Informatics Unit. </p>
                                 <p>He has evaluated usage of routinely collected data to support research, audit and professional appraisal, highlighting the need - from a clinical perspective - for standardising the structure and content of patients’ records. At the Royal College of Physicians, he has led the development of evidence- and consensus-based standards for hospital admission records and communications. Professor Williams is presently Strategic Lead for the Supporting Professionals Workstream with the NHS Wales Informatics Service. </p>
+                            <h4>Demelza Douglas</h4>            
+                                <p><span className="image left"><img src={douglas} alt="Demelza Douglas" /></span>
+                            Demelza graduated for the University of Southampton with a degree in occupational therapy in 2002 and has specialised in the field of community paediatrics for the last 13 years.  Since 2017 she has been the CCIO for Somerset Partnership NHS Foundation Trust and has been significantly involved in the procurement and development of the Somerset Integrated Digital Electronic Record (SIDeR).
+                            </p>  
+                            
                             </div>
                             <div className="col-6">
                             <h4>Dr Tim Benson</h4>
@@ -37,6 +46,15 @@ const Speakers = (props) => (
                                 <p>Tim led the first European project team on open standards for health interoperability, which led to CEN/TC251 and collaboration with HL7, where he was a co-chair of the Education Committee for several years.  He has also developed a family of short generic patient-reported outcome measures with <a href="http://www.r-outcomes.com" target="_blank">R-Outcomes Ltd</a>.</p>
                             <h4>Dr Ian McNicoll</h4>
                                 <p><span className="image right"><img src={mcnicoll} alt="Dr Ian McNicoll" /></span>Ian is a former Scottish family doctor, and has been involved in healthcare informatics for nearly 30 years, working with openEHR technologies for the last 12 years, most recently with his consultancy, freshEHR Clinical Informatics and as Co-Chair of the openEHR Foundation. His current focus is as CCIO of inidus, a UK startup delivering cloud-hosted clinical computing services, based on open standards. He is also an INTEROPen Board member, is actively involved in UK FHIR profile curation, an Honorary Senior Research Associate at CHIME, UCL, an NHS Digital Innovation Associate and a Founding Fellow of the UK Faculty of Clinical Informatics</p>
+                            <h4>David Reilly</h4>
+                                <p><span className="image right"><img src={reilly} alt="David Reilly" /></span>
+                                Head of Interoperability at Alder Hey and the Cheshire and Merseyside Technical lead for the Share2Care Programme. David has worked at Alder Hey Children’s Hospital for two years, before this was a Senior technical Developer at St Helens and Knowlsey and previously worked for iMerseyside. He graduated with a BSc in Computer Information Systems from the University of Liverpool and is currently working to complete a MSc in Health Informatics.
+                                </p>
+                            <h4>Dr Ian McNicoll</h4>
+                                <p><span className="image right"><img src={hussin} alt="Zoe Hussin" /></span>
+                                Zoe is a Clinical Interoperability Lead at Alder Hey. She has worked in a clinical lead digital role for the last 2 years and prior to this at Liverpool Community Health.  Having 20 years clinical experience within the NHS as Paediatric Nurse and a Community Practitioner in Public Health, Zoe continues to clinically practice in A&E at Alder Hey. She is part of the  2nd cohort on the NHS Digital Leadership Academy for 2019/2020.
+                                </p>
+
                             </div>
                         </div>
                     <p><strong>We have more voices from the health interoperability community to announce very soon.</strong></p>
