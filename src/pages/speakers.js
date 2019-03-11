@@ -38,7 +38,12 @@ const Speakers = (props) => (
                                 <p><span className="image left"><img src={douglas} alt="Demelza Douglas" /></span>
                             Demelza graduated for the University of Southampton with a degree in occupational therapy in 2002 and has specialised in the field of community paediatrics for the last 13 years.  Since 2017 she has been the CCIO for Somerset Partnership NHS Foundation Trust and has been significantly involved in the procurement and development of the Somerset Integrated Digital Electronic Record (SIDeR).
                             </p>  
-                            
+                            <h4>Dr Colin Brown</h4>            
+                                <p><span className="image left"><img src={brown} alt="Dr Colin Brown" /></span>
+                                Colin Brown was a GP for 35 yrs. and active in Health IT for 30. He worked on GP system change at levels ranging from the strategic to tech detail on data formats, not knowing at the time that these were “Interoperability” issues – as were other work areas such as national document folder naming, GP2GP, labs results, computable dose instructions etc.  He is a Founding Fellow of the Faculty of Clinical Informatics
+                                Having failed his dream to sort it all out before leaving clinical practice, he retains enthusiasm for proper geeky work on software to close the gap on our astonishing hardware.
+                            </p>  
+
                             </div>
                             <div className="col-6">
                             <h4>Dr Tim Benson</h4>
