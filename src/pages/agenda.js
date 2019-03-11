@@ -8,7 +8,7 @@ const Agenda = (props) => (
     <Layout>
         <Helmet>
             <title>Agenda | Interop'19</title>
-            <meta name="description" content="The Full Programme for Health Interop 2019." />
+            <meta name="description" content="The Full Programme for the Health Interoperbility Symposium 2019." />
         </Helmet>
 
         <div id="main" className="alt">
@@ -35,14 +35,14 @@ const Agenda = (props) => (
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>09:00</td>
+                                                <td>08:45</td>
                                                 <td>Coffee</td>
                                                 <td></td>
                                             </tr>
                                             <tr>
                                                 <td>09:30</td>
                                                 <td>Welcome and Opening Remarks</td>
-                                                <td>Andrew Griffiths, NHS Wales Informatics Service</td>
+                                                <td>John Meredith, NHS Wales Informatics Service</td>
                                             </tr>
                                             <tr>
                                                 <td>09:45</td>
@@ -56,8 +56,8 @@ const Agenda = (props) => (
                                             </tr>
                                             <tr>
                                                 <td></td>
-                                                <td>Getting the Basics Right</td>
-                                                <td>Tim Benson, R-Outcomes Ltd</td>
+                                                <td>How open digital platforms support patient centric care</td>
+                                                <td>Mike Jones, Vice President, Analyst (Gartner)</td>
                                             </tr>
                                             <tr>
                                                 <td></td>
@@ -114,6 +114,14 @@ const Agenda = (props) => (
                                                 <td><strong>Session 3</strong></td>
                                                 <td>Introduced by Peter Coates, Apperta Foundation</td>
                                             </tr>
+
+                                            <tr>
+                                                <td></td>
+                                                <td>Getting the Basics Right</td>
+                                                <td>Tim Benson, R-Outcomes Ltd</td>
+                                            </tr>
+
+
                                             <tr>
                                                 <td></td>
                                                 <td>How Clinical Workflow Works</td>
@@ -123,11 +131,6 @@ const Agenda = (props) => (
                                                 <td></td>
                                                 <td>Of Platforms, Towers and Books</td>
                                                 <td>Colin Brown, Clinical Informatics Adviser (NSS SCIMP)</td>
-                                            </tr>
-                                            <tr>
-                                                <td></td>
-                                                <td>How open digital platforms support patient centric care</td>
-                                                <td>Mike Jones, Vice President, Analyst (Gartner)</td>
                                             </tr>
 
                                             <tr>
