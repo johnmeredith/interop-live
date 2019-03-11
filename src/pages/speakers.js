@@ -10,6 +10,9 @@ import douglas from '../assets/images/demelza_douglas.png'
 import reilly from '../assets/images/davidreilly.jpg'
 import hussin from '../assets/images/Zoe_Hussin.jpg'
 import brown from '../assets/images/colin_brown.jpg'
+import beale from '../assets/images/thomas_beale.png'
+import jones from '../assets/images/mike_jones.jpg'
+
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
 
 const Speakers = (props) => (
@@ -40,8 +43,8 @@ const Speakers = (props) => (
                             </p>  
                             <h4>Dr Colin Brown</h4>            
                                 <p><span className="image left"><img src={brown} alt="Dr Colin Brown" /></span>
-                                Colin Brown was a GP for 35 yrs. and active in Health IT for 30. He worked on GP system change at levels ranging from the strategic to tech detail on data formats, not knowing at the time that these were “Interoperability” issues – as were other work areas such as national document folder naming, GP2GP, labs results, computable dose instructions etc.  He is a Founding Fellow of the Faculty of Clinical Informatics
-                                Having failed his dream to sort it all out before leaving clinical practice, he retains enthusiasm for proper geeky work on software to close the gap on our astonishing hardware.
+                                Colin Brown was a GP for 35 yrs. and active in Health IT for 30. He worked on GP system change at levels ranging from the strategic to tech detail on data formats, not knowing at the time that these were “Interoperability” issues – as were other work areas such as national document folder naming, GP2GP, labs results, computable dose instructions etc.  He is a Founding Fellow of the Faculty of Clinical Informatics. </p> 
+                                <p>Having failed his dream to sort it all out before leaving clinical practice, he retains enthusiasm for proper geeky work on software to close the gap on our astonishing hardware.
                             </p>  
 
                             </div>
@@ -51,6 +54,20 @@ const Speakers = (props) => (
                                 <p>Tim led the first European project team on open standards for health interoperability, which led to CEN/TC251 and collaboration with HL7, where he was a co-chair of the Education Committee for several years.  He has also developed a family of short generic patient-reported outcome measures with <a href="http://www.r-outcomes.com" target="_blank">R-Outcomes Ltd</a>.</p>
                             <h4>Dr Ian McNicoll</h4>
                                 <p><span className="image right"><img src={mcnicoll} alt="Dr Ian McNicoll" /></span>Ian is a former Scottish family doctor, and has been involved in healthcare informatics for nearly 30 years, working with openEHR technologies for the last 12 years, most recently with his consultancy, freshEHR Clinical Informatics and as Co-Chair of the openEHR Foundation. His current focus is as CCIO of inidus, a UK startup delivering cloud-hosted clinical computing services, based on open standards. He is also an INTEROPen Board member, is actively involved in UK FHIR profile curation, an Honorary Senior Research Associate at CHIME, UCL, an NHS Digital Innovation Associate and a Founding Fellow of the UK Faculty of Clinical Informatics</p>
+
+                                <h4>Mike Jones</h4>
+                                <p><span className="image right"><img src={jones} alt="Mike Jones" /></span>
+                                Mike Jones is a Vice President with Gartner Inc. His focus is on providing strategic advice and guidance to healthcare organisations across the globe on digital strategy and operating models. Prior to joining Gartner, he worked at Executive level in various organisations as CIO / Director and has also led large scale implementations of EHR, HIE, Imaging and Telehealth clinical solutions. His professional background is in public health, epidemiology, enterprise architecture. He is a Chartered Fellow of the British Computer Society with an interest in professional development and informatics leadership.         
+                                </p>
+
+                                <h4>Thomas Beale</h4>
+                                <p><span className="image right"><img src={beale} alt="Thomas Beale" /></span>
+                                Thomas has 20 years' experience in EHR technology and standards, information modelling, semantic interoperability, e-health strategy and open health computing platforms. Thomas's early experience was in CMM level 4 engineering of real-time control systems. He also worked in some of the largest financial enterprises in Australia, in both a strategic advisory capacity and on project implementation. He has worked in e-health since 1994, when he was the technical advisor for the Good European Health Record (GEHR) project.
+                                Since 1998, he has been involved in international e-health standards development (OMG, HL7, CEN, IHTSDO), including as an IHTSDO Technical Committee member 2009-2012. He has worked on the openEHR architecture since 2001.                                
+                                </p>
+
+
+
                             <h4>David Reilly</h4>
                                 <p><span className="image right"><img src={reilly} alt="David Reilly" /></span>
                                 Head of Interoperability at Alder Hey and the Cheshire and Merseyside Technical lead for the Share2Care Programme. David has worked at Alder Hey Children’s Hospital for two years, before this was a Senior technical Developer at St Helens and Knowlsey and previously worked for iMerseyside. He graduated with a BSc in Computer Information Systems from the University of Liverpool and is currently working to complete a MSc in Health Informatics.
