@@ -18,6 +18,20 @@ const News = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
+                        <h3>11/03/19 - Sold Out!</h3>
+                    </header>
+                    <p> 
+                    <strong>Interop'19 has sold out of delegate passes.</strong></p>
+                    <p>
+                    With our finalised agenda we are pleased to announce that all delegate passes have gone. If between now and the event you wish to attend, you can register your interest on the Eventbrite waiting list. Just follow the booking link. 
+                    </p>
+                </div>
+            </section>
+
+        <div id="main" className="alt">
+            <section id="two">
+                <div className="inner">
+                    <header className="major">
                         <h3>28/01/19 - Interop'19 Gets An Upgrade</h3>
                     </header>
                     <p><span className="image right"><img src={dhew} alt="Digital Health Ecosystem Wales" /></span>
@@ -28,7 +42,7 @@ const News = (props) => (
                     <p>There is no change to the date of the event and the larger <a href="../register">ticket allocation is available now.</a></p>
                 </div>
             </section>
-            <section id="two">
+            <section id="three">
                 <div className="inner">
                 <header className="major">
                                         <h3>23/01/19 - Collaboration Update</h3>
