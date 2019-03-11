@@ -6,8 +6,6 @@ import bakke from '../assets/images/bakke.jpg'
 import williams from '../assets/images/williams.jpg'
 import benson from '../assets/images/benson.jpg'
 import birger from '../assets/images/birger.jpg'
-import reilly from '../assets/images/David_Reilly.jpg'
-import hussin from '../assets/images/Zoe_Hussin.jpg'
 import douglas from '../assets/images/demelza_douglas.png'
 
 import speaker from '../assets/images/oleg-laptev-546607-unsplash.jpg'
